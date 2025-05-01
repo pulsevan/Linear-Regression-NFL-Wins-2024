@@ -26,7 +26,7 @@ The final regression model identified the following offensive metrics as signifi
 * **Total First Downs (Tot1stD)**
 * **Turnovers (TO.)**
 
-These two predictors both have p-values near 0 and the full model had a p-value also near 0. With an adjusted R² of 0.711, this model accounts of 71.1% of variability in NFL team wins in 2024.
+These two predictors both have p-values near 0 and the full model has a p-value also near 0. With an adjusted R² of 0.711, this model accounts of 71.1% of variability in NFL team wins in 2024.
 
 Potential future work includes adding in multiple seasons as well as adding in defensive statistics. 
 
