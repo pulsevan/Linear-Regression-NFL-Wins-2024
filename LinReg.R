@@ -6,10 +6,10 @@ library(tidyverse)
 
 #Import datasets
 
-afc <- read.csv("C:/Users/evnpu/OneDrive - University of Toledo/R Codes/LinRegProj/pfrAFCScoring.csv") %>% mutate(Conference = "AFC")
-nfc <- read.csv("C:/Users/evnpu/OneDrive - University of Toledo/R Codes/LinRegProj/pfrNFCscoring.csv") %>% mutate(Conference = "NFC")
+afc <- read.csv("C:/YOUR/PATH/TO/pfrAFCScoring.csv") %>% mutate(Conference = "AFC")
+nfc <- read.csv("C:/YOUR/PATH/TO/pfrNFCscoring.csv") %>% mutate(Conference = "NFC")
 #Import teamOffense. Remove some variables here to make merging nicer.
-teamOffense <- read.csv("C:/Users/evnpu/OneDrive - University of Toledo/R Codes/LinRegProj/pfrTeamOffense.csv") %>% 
+teamOffense <- read.csv("C:/YOUR/PATH/TO/pfrTeamOffense.csv") %>% 
   select(-c(PF, G, Rk, EXP, FL))
 
 #some of the rows in afc and nfc have a + or a * to indicate if they made the playoffs.

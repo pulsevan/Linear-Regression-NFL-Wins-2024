@@ -46,7 +46,7 @@ Potential future work includes adding in multiple seasons as well as adding in d
     ```R
     install.packages(c("tidyverse", "ggplot2", "reshape2", "corrplot"))
     ```
-3.  **Download Data:** Obtain the relevant CSV files for the 2024 season from Pro-Football-Reference (or use the ones included in this repository if available).
+3.  **Download Data:** Obtain the relevant CSV files for the 2024 season from Pro-Football-Reference (or use the ones included in this repository).
 4.  **Update File Paths:** **Crucially**, open the `LinReg.R` script and **update the file paths** in the `read.csv()` functions to point to the location where you saved the data files on your computer.
     ```R
     # Example - MODIFY THESE LINES in LinReg.R:
